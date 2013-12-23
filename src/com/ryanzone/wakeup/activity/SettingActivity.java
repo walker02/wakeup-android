@@ -98,6 +98,7 @@ public class SettingActivity extends RTActivity {
         View popupView = getLayoutInflater().inflate(R.layout.ppw_setting, null);
         mPopupWindow = new PopupWindow(popupView, RelativeLayout.LayoutParams.MATCH_PARENT,
             RelativeLayout.LayoutParams.WRAP_CONTENT, true);
+        ((TextView)popupView.findViewById(R.id.tvSelectTitle)).setText(getResources().getString(R.string.choice_music));
         mPopupWindow.setTouchable(true);
         mPopupWindow.setOutsideTouchable(true);
         mPopupWindow.setBackgroundDrawable(new BitmapDrawable());
@@ -138,6 +139,7 @@ public class SettingActivity extends RTActivity {
         View popupView = getLayoutInflater().inflate(R.layout.ppw_setting, null);
         mPopupWindow = new PopupWindow(popupView, RelativeLayout.LayoutParams.MATCH_PARENT,
             RelativeLayout.LayoutParams.WRAP_CONTENT, true);
+        ((TextView)popupView.findViewById(R.id.tvSelectTitle)).setText(getResources().getString(R.string.shake_strengh));
         mPopupWindow.setTouchable(true);
         mPopupWindow.setOutsideTouchable(true);
         mPopupWindow.setBackgroundDrawable(new BitmapDrawable());
