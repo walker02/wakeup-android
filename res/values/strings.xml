@@ -5,6 +5,16 @@
     <string name="version">v1.0</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    
+    <!-- 闹钟设置页面 -->
+    <string name="shake">震 动</string>
+    <string name="old_music_bell">老式铃声</string>
+    <string name="valley_voice">空谷回响</string>
+    <string name="choice_music">音乐选择</string>
+    <string name="easy_shake">容易</string>
+    <string name="middle_shake">中等</string>
+    <string name="hard_shake">困难</string>
+    <string name="shake_strengh">摇力强度</string>
     <string name="setting_slogan">     要么睡，要么去奋斗</string>
 
 </resources>
